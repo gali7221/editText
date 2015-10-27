@@ -1,0 +1,37 @@
+body {
+	margin: 0 auto;
+	width: 980px;	
+}
+
+body, input, label, button {
+	font-family: "Lucida Grande", sans-serif; 
+}
+
+
+.container {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 900px;
+}
+
+.editContainer {
+	margin: 25px;
+	padding: 25px;
+}
+
+.editContainer:hover{
+	border-bottom: 2px solid black;
+}
+
+button {
+	padding: 5px;
+	border: 1px dotted black;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.myEditable.editable {
+	color: red;
+}
+
